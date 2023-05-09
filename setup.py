@@ -25,7 +25,7 @@ setup(
     ],
     package_dir={'face_recognition_models': 'face_recognition_models'},
     package_data={
-        'face_recognition_models': ['models/*.dat']
+        'face_recognition_models': ['models/*.dat', 'models/*.pt']
     },
     install_requires=requirements,
     license="MIT license",
